@@ -28,3 +28,5 @@ class Queue {
     console.log(this.queue.join(' '));
   }
 }
+
+module.exports = Queue;

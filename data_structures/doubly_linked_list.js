@@ -116,3 +116,5 @@ class DoublyLinkedList {
     console.log(string.trim());
   }
 }
+
+module.exports = DoublyLinkedList;
