@@ -1,7 +1,9 @@
-function Node(data) {
-  this.data = data;
-  this.left = null;
-  this.right = null;
+class Node {
+  constructor(data) {
+    this.data = data;
+    this.left = null;
+    this.right = null;
+  }
 }
 
 class BinarySearchTree {
@@ -303,3 +305,5 @@ class BinarySearchTree {
     }
   }
 }
+
+module.exports = BinarySearchTree;
